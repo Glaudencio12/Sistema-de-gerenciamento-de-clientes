@@ -14,7 +14,8 @@ public class Main {
             System.out.println("2. Alterar Dados do Cliente");
             System.out.println("3. Excluir Cliente");
             System.out.println("4. Consultar Cliente");
-            System.out.println("5. Sair");
+            System.out.println("5. Listar todos os Clientes");
+            System.out.println("6. Sair");
 
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
@@ -80,6 +81,11 @@ public class Main {
                     break;
 
                 case 5:
+                    System.out.println("Listagem de todos os clientes do sistema:");
+                    sistema.ListaTodosOsClientes();
+                    break;
+
+                case 6:
                     scanner.close();
                     return;
 

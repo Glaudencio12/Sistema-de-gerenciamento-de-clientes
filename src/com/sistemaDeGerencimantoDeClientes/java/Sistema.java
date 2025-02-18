@@ -122,4 +122,9 @@ public class Sistema {
         return "Cliente não encontrado";
     }
 
+    public void ListaTodosOsClientes(){
+        for (Cliente clientes : clientesList){
+            System.out.println(clientes.toString());
+        }
+    }
 }
