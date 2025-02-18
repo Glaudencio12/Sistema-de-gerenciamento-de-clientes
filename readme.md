@@ -41,4 +41,3 @@ Consulta de Clientes:
 - Arrays: Utilize arrays para armazenar a lista de clientes cadastrados.
 - Sobrecarga de métodos e sobrescrita: Utilize a sobrecarga de métodos para criar métodos com o mesmo nome, mas com diferentes parâmetros. Utilize a sobrescrita para criar métodos em classes filhas que substituem os métodos das classes pai.
 - Blocos de inicialização: Utilize blocos de inicialização para inicializar atributos de classes antes da criação dos objetos.
-- Entrega
